@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:backgroundTint="@color/black"
+    android:id="@+id/layoutToolBar"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:text="\n\n1. Location Settings: Hogwart Travel's will need permission to access your device's location in order to provide you with travel information and to set alarms.
+\n\n
+2. Notifications Settings: Hogwart Travel's will need permission to send you notifications about your upcoming trips, travel alerts, and other notifications related to travel.
+\n\n
+3. Camera and Photos Settings: Hogwart Travel's will need permission to access your device's camera and photos in order to provide you with travel information and to set alarms.
+\n\n
+4. Contacts Settings: Hogwart Travel's will need permission to access your device's contacts in order to provide you with travel information.
+\n\n
+5. Audio Settings: Hogwart Travel's will need permission to access your device's audio in order to set alarms.
+\n\n
+6. Third-Party Settings: Hogwart Travel's will need permission to access third-party services in order to provide you with travel information."
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints" />
+    <ImageButton
+        android:id="@+id/close"
+        android:src="@drawable/exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

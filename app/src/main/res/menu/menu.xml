@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="Maps"
+        android:icon="@drawable/home" />
+
+
+    <item android:id="@+id/weather"
+        android:title="Weather"
+        android:icon="@drawable/weather"/>
+
+    <item android:id="@+id/calculator"
+        android:title="Calculator"
+        android:icon="@drawable/calculator"/>
+
+    <item android:id="@+id/flashlight"
+        android:title="Flashlight"
+        android:icon="@drawable/flashlight" />
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:title="Settings"
+                android:icon="@drawable/settings"/>
+            <item
+                android:id="@+id/about"
+                android:title="About Us"
+                android:icon="@drawable/about"/>
+        </menu>
+    </item>
+
+
+
+</menu>
